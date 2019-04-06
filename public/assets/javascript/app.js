@@ -41,7 +41,6 @@ function showAll(burgersArr) {
 }
 
 
-
 $(".create").on("click", function (event) {
    const burger_name = $("#burgerName").val();
    console.log(burger_name);
@@ -53,7 +52,7 @@ $(".create").on("click", function (event) {
    }).then(function (response) {
       console.log(response)
       getBurgers();
-      $(".newBurgerField").empty();
+      //$(".newBurgerField").empty();
    });
 });
 
@@ -68,4 +67,4 @@ $(".burgerList").on("click", '.burgerdiv', function (event) {
    });
 });
 
-getBurgers()
+getBurgers();

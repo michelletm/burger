@@ -10,9 +10,11 @@ h3 {
 
 .burgerdiv {
    display: inline-block;
+   
 }
 
-.devouredBurgerList {
+.devouredBurgerList,
+.burgerList {
    display: inline-block;
 
 }
