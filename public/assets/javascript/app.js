@@ -28,8 +28,8 @@ function showAll(burgersArr) {
       </div>
       */
       var div = $(`<div class='burgerdiv' data-burger-id="${burgerId}">`)
-      var img = $(`<img src='/static/assets/css/burger.png'>`)
-      var btn = $(`<button>`).text(burgerTitle);
+      var img = $(`<img src='/static/assets/css/burger.png'><br>`)
+      var btn = $(`<button id="burgerBtn">`).text(burgerTitle);
 
       div.append(img, btn)
       if (burgerIsDevoured) {

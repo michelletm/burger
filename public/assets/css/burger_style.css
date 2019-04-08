@@ -1,11 +1,33 @@
 body {
-   background: greenyellow;
+   background: rgb(47, 255, 47);
 }
 
-h1, 
-h3 {
+header {
    text-align: center;
-   font-family: 'Courier New', Courier, monospace;
+   font-family: 'Permanent Marker', cursive;
+   font-size: 65px;
+   padding: 30px;
+}
+
+
+.newBurgerField {
+   font-family: 'Permanent Marker', cursive;
+   font-size: 32px;
+   text-align: center;
+   padding-top: 15px;
+   padding-bottom: 2px;
+}
+
+#burgerName {
+   height: 25px;
+   length: 100px;
+}
+
+.openBL, 
+.openBDL {
+   border: 1px black;
+   padding: 36px;
+   font-size: 24px;
 }
 
 .burgerdiv {
@@ -13,8 +35,23 @@ h3 {
    
 }
 
+#burgerBtn {
+   margin: auto;
+   float: center;
+}
+
 .devouredBurgerList,
 .burgerList {
+   padding: 30px;
    display: inline-block;
+   font-family: 'Permanent Marker', cursive;
 
+}
+
+p {
+   font-family: 'Permanent Marker', cursive;
+   font-size: 36px;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
